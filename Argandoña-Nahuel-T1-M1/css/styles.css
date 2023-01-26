@@ -5,10 +5,15 @@
 }
 
 .banner {
-  height: 600px;
+  height: 100%;
   box-sizing: content-box;
   width: 100%;
   border: solid #000000 1px;
+
+  /* background-image: url(../img/logo\(4\).jpg);
+  background-position-x: center;
+  background-position-y:center;
+  background-size:contain; */
 }
 
 .logo {
