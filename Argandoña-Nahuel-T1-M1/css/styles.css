@@ -62,11 +62,12 @@ p {
 }
 
 nav h1 {
+  font-family: 'Comic Neue', cursive;
   color: black;
   font-size: 1.5em;
   padding: 10px;
   text-align: left;
   position: absolute;
   left: 0;
-  top: 5px;
+  top: 0px;
 }
