@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: ghostwhite;
+}
+
+p {
+  margin: 0px 0px 0px 25px;
+  font-family: 'Comic Neue', cursive;
+}
+
+/* navar */
+.nav-btn {
+  font-size: 16px;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 5px;
+  bottom: -15px;
+  font-family: 'Comic Neue', cursive;
+  letter-spacing: 2px;
+  border: transparent;
+  text-decoration: none;
+}
+
+.nav-btn:active {
+  background-color: rgb(4, 67, 64);
+  transform: translate(0em, 0.2em);
+}
+
+#selected {
+  background-color: darkgreen;
+  transform: translate(0em, 0.2em);
+  border: transparent;
+}
+
+.navbar {
+  display: flex;
+  border: transparent;
+  margin: 0px 0px 0px 750px;
+  justify-content: flex-end;
+}
+
+/* header */
+.header {
+  font-family: 'Comic Neue', cursive;
+  color: black;
+  display: flex;
+  letter-spacing: 1px;
+  border: transparent;
+  margin: 0px 0px 0px 85px;
+}
+
+/* banner*/
+.banner {
+  display: inline-block;
+  width: 90%;
+  overflow: hidden;
+  height: 900px;
+  object-position: top;
+  object-fit: cover;
+  margin: 1% 0% 0% 4.5%;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  border-radius: 3px;
+  border: transparent;
+  background-image: url(../img/logo\(4\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* titulo*/
+.titulo>h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Comic Neue', cursive;
+  width: 90%;
+  margin: 0% 0% 1% 4.5%;
+  background-color: rgb(54, 54, 88);
+  border: transparent;
+  letter-spacing: 2px;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  border-radius: 3px;
+
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  width: 90%;
+  margin: 0% 0% 0% 4.5%;
+  background-color: ghostwhite;
+  text-decoration: underline;
+}
+
+/* primer logo*/
+.logo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 10px 0px 0px 100px;
+  border: transparent;
+  border-radius: 3px;
+}
+
+/* primera imagen*/
+.imagen {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: -180px 0px 20px 600px;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  transition: 5s;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+}
+
+/* segunda imagen*/
+.imagen2 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 20px 0px 20px 150px;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  transition: 5s;
+}
+
+.imagen2:hover {
+  transform: scale(1.1);
+}
+
+.cat-1:hover {
+  transform: translate(580px) rotate(20deg);
+}
+
+.imagen3 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 10px 0px 10px 100px;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  transition: 5s;
+}
+
+.imagen3:hover {
+  transform: scale(1.1);
+}
+
+.main {
+  display: flex;
+}
+
+/* articulo y parrafo*/
+
+article h3 {
+  font-family: 'Comic Neue', cursive;
+}
+
+.article1 {
+  margin: 10px 0px 0px 100px;
+}
+
+.article2>h3 {
+  margin: 30px 0px 0px 50px;
+}
+
+.article2>p {
+  margin: 30px 0px 0px 80px;
+}
+
+
+/* segundo logo*/
+.logo2 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 70px 0px 0px 100px;
+}
+
+/* game-info*/
+.text>h2 {
+  text-align: center;
+  position: relative;
+  top: -260px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.text>p {
+  text-decoration: underline;
+  text-align: center;
+  margin: -257px 0px 0px -10px;
+  font-family: 'Comic Neue', cursive;
+}
+
+/* game-info:table*/
+.table {
+  margin: -200px 0px 0px 600px;
+  border-collapse: separate;
+  border-spacing: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+th,
+td {
+  width: 25%;
+  border: solid #000000 3px;
+  border-radius: 3px;
+  font-family: 'Comic Neue', cursive;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+/* game-info:contact*/
+.information {
+  margin: 0px 0px 0px 100px;
+}
+
+.contact>p {
+  margin: 0px 0px 0px 5px;
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.contact>h3 {
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.contact2>p {
+  margin: 0px 0px 0px 5px;
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.contact2>h3 {
+  display: inline;
+  margin: 0px 0px 0px 25px;
+  font-family: 'Comic Neue', cursive;
+}
+
+/* rules*/
+.rules-information {
+  margin: 0px 0px 0px 100px;
+}
+
+.info>h3 {
+  margin: 20px 0px 0px 0px;
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.info>p {
+  margin: 0px 0px 0px 5px;
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.info2>p {
+  margin: 0px 0px 0px 5px;
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.info2>h3 {
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.rules-info>h1 {
+  margin: 5px 0px 0px 0px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.rules-info>span {
+  font-family: 'Comic Neue', cursive;
+}
+
+.rules-info>p {
+  margin: 20px 0px 0px 25px;
+  display: inline;
+  font-family: 'Comic Neue', cursive;
+}
+
+.rules-info2>h1 {
+  margin: 20px 0px 0px 0px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.rules-info2>h3 {
+  margin: 20px 0px 0px 0px;
+  font-family: 'Comic Neue', cursive;
+
+}
+
+.rules-info2>p {
+  margin: 0px 0px 0px 25px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.all-play>h1 {
+  margin: 20px 0px 0px 0px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.all-play>p {
+  margin: 0px 0px 0px 25px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.all-play>span {
+  margin: 0px 0px 0px 65px;
+  font-family: 'Comic Neue', cursive;
+}
+
+/* tercer logo*/
+.logo3 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+/* footer*/
+.footer {
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border: transparent;
+  background-color: rgb(54, 54, 88);
+  color: white;
+  letter-spacing: 1px;
+  width: 90%;
+  margin: 0% 0% 0% 4.5%;
+  box-shadow: 10px 5px 5px rgb(15, 14, 14);
+  border-radius: 3px;
+  margin: 70px 0px 0px 80px;
+}
